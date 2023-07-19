@@ -1,0 +1,33 @@
+.main{
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+.desc1{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2vh;
+}
+
+.desc2{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2vh;
+    margin-top: 5vh;
+}
+
+.desc3{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2vh;
+    margin-top: 5vh;
+}
+
+@media all and (max-width:800px){
+    .main{
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+    }
+}

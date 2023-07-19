@@ -1,0 +1,97 @@
+.main{
+    margin: auto;
+    width: 38%;
+    text-align: left;
+    margin-top: -5%;
+}
+
+.heading{
+    font-size:7vh;
+    color: white;
+    font-weight: 600;
+}
+
+.job_title{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 3vh;
+}
+
+.description{
+    color: rgb(203, 201, 201);
+    line-height: 2.7vh;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.contentDiv{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.contentDiv:hover{
+    cursor: pointer;
+}
+
+.content{
+    color: white;
+    transition: 0.5s all ease;
+}
+
+.notContent{
+    color: white;
+    opacity: 0.5;
+}
+
+.line{
+    transition: 0.5s all ease;
+    margin-left: 0%;
+    width: 45%;
+}
+
+.notLine{
+    width: 35%;
+    opacity: 0.5;
+    margin-left: 0%;
+}
+
+.imageDiv{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 5vh;
+    margin-top: 10%;
+}
+
+.image{
+    opacity: 0.6;
+    width: 45%;
+}
+
+.image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.anchor{
+    height: 100%;
+    width: 30%;
+}
+
+.findTheseHeading{
+    color: white;
+}
+
+.moveDiv{
+    line-height: 1vh;
+}
+
+@media all and (max-width:800px){
+    .main{
+        margin: auto;
+        width: 80%;
+        text-align: left;
+        margin-top: -5%;
+    }
+}

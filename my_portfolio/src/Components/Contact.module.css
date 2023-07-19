@@ -1,0 +1,16 @@
+.main{
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.heading{
+    color: white;
+    font-size: 5vh;
+    font-weight: 500;
+    margin: auto;
+}
+
+.contactNumber{
+    color: rgb(177, 174, 174);
+    margin-bottom: -1vh;
+}

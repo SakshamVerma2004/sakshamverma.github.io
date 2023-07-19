@@ -1,0 +1,106 @@
+.main{
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.heading{
+    margin: auto;
+    color: white;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.projectDiv{
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-top: 2vh;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid #192f5b;
+}
+
+.projectDiv:hover{
+    border: 1px solid rgb(85, 93, 254);
+    background-color: #1d376a;
+}
+
+.projectHeading{
+    margin: auto;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.flexDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.descDiv{
+    line-height: 2vh;
+    text-align: justify;
+}
+
+.description{
+    color: rgb(199, 197, 197);
+    text-align: justify;
+}
+
+.imageDiv{
+    width: 30%;
+    height: 8vh;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.seeMore{
+    color: rgb(185, 185, 185);
+    width: 25%;
+}
+
+.seeMore:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.headline{
+    color: white;
+    text-align: justify;
+}
+
+.tech{
+    color: white;
+    font-weight: 200;
+}
+
+.techAnswer{
+    font-weight: 500;
+}
+
+.linkDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.github{
+    width: 8%;
+}
+
+.githubPhoto{
+    width: 100%;
+}
+
+.viewAnchor{
+    color: white;
+}
